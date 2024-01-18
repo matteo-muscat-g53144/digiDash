@@ -10,4 +10,10 @@ h1 {
 p{
   color: white; 
 }
+gaugeChart {
+  /* Stretch horizontally */
+  transform: scaleX(2);
+  /* Optional: you might need to adjust the container's overflow property */
+  overflow: visible;
+}
 

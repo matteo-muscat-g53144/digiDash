@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gauge Example</title>
+    <!--<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>-->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <div style="width: 1080px; height: 540px;">
+        <!--<canvas id="gaugeChart"></canvas>-->
+        <svg id="gaugeChart"></svg>
+    </div>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+    <!--<input type="range" id="slider" min="0" max="7000" step="10">-->
+    <script src="{{ url_for('static', filename='js/gauge.js') }}"></script>
+</body>
+</html>
